@@ -1,0 +1,5 @@
+a -> Porque o tamanho do pacato e maior do que o mtu para o ipv4 (1500)
+b -> a identificacao e a mesma nos pacotes fragmentados neste caso e fragmentado e no segundo pacote podemos ver um valor de fragment offset de 1480 (1500 -20 )\
+c -> Podemos ver que nao e o primeiro pacote devido ao offset e nao é o ultimo pacote porque temos a flag do "More graments" a"Set" e tambem podemos ver que vai ser reassembled na proxima frame uma vez que se estamos na frame n entao o parametro "Reassembled IPv4 in frame:" vai ter o valor n+1
+d -> 3 fragmentos e vericamos que e o ultimo atrves da flag do More Fragments e se esta esta Set ou nao
+e -> Temos o MF flaf que e ativada para todos menos o ultimo fragmento e o fragment offset que e calculado atraves do offset do fragmento do paylaod original

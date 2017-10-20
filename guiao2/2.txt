@@ -1,0 +1,7 @@
+a ->192.168.1.245
+b -> ICMP
+c -> Headers e de 20 bytes.  Payload = ((74-20)/8(so o inteiro)) * 8
+d -> Nao porque nao e maior que o MTU (1500)
+e -> identification , time to live , header checksum
+f -> cada pacote de ICMP incrementa identificacao conforme TTL aumenta
+g -> 64 ttl e 252-249 ttl (porque foram diferentes maquinas a dar o sinal que o pacote tem o ttl a 0 sendo que cada maquina tem valores diferentes sendo os primeiros primeiro 64 e depois alguns 255 tendo este de dar hops perdendo o valor (valores podem nao estar corretos tou muito cansado ja XD))
