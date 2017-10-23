@@ -1,6 +1,6 @@
 a ->192.168.1.245
 b -> ICMP
-c -> Headers e de 20 bytes.  Payload = ((74-20)/8(so o inteiro)) * 8
+c -> Headers e de 20 bytes.  Payload = ((60-20)/8(so o inteiro)) * 8
 d -> Nao porque nao e maior que o MTU (1500)
 e -> identification , time to live , header checksum
 f -> cada pacote de ICMP incrementa identificacao conforme TTL aumenta
