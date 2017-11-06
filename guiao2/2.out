@@ -1,0 +1,22 @@
+No.     Time           Source                Destination           Protocol  
+     27 1.167582418    192.168.73.201        193.136.9.254         ICMP     Echo (ping) request  id=0x1584, seq=1/256, ttl=1 (no response found!)
+
+Frame 27: 526 bytes on wire (4208 bits), 526 bytes captured (4208 bits) on interface 0
+Ethernet II, Src: Pegatron_49:f9:c2 (00:71:c2:49:f9:c2), Dst: Vmware_1d:41:ec (00:0c:29:1d:41:ec)
+Internet Protocol Version 4, Src: 192.168.73.201, Dst: 193.136.9.254
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 512
+    Identification: 0xb6b1 (46769)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: ICMP (1)
+    Header checksum: 0x2b54 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.73.201
+    Destination: 193.136.9.254
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Portugal]
+Internet Control Message Protocol

@@ -1,0 +1,6 @@
+b -> porque quando fazemos traceroute de modo a perceber o caminho do pacote quando estao disponiveis varias rotas verificamos que ele pode ir por rotas diferentes e para ser estatico tinhamos de definir as rotas manualmente
+c -> (route delete -net 0.0.0.0)Remove mos o default route para ipv4 ,logo ao remover o 0.0.0.0 retiramos o acesso a redes que nao sejam a subrede
+d ->
+    route add -net {idSubred} netmask {maskdo laptop (24 -> 255.255.255.0)} dev {interface} gw {ip da gateway(router) do servidor}
+    todos os laptops a correr pings para o servidor assim que
+e ->

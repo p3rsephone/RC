@@ -1,0 +1,7 @@
+b -> ip privados uma vez que estamos a tratar de subredes internas
+c -> um ethernet switch apenas da "switch" dos packets de ethernet ,sendo que nao existe ip ao nivel destes pacotes, ou seja, o trafico apenas passa pelo switch e nao é necesasrio ip para o mesmo.
+d -> (prints)
+e -> (prints)
+
+
+
