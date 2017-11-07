@@ -3,4 +3,5 @@ c -> (route delete -net 0.0.0.0)Remove mos o default route para ipv4 ,logo ao re
 d ->
     route add -net {idSubred} netmask {maskdo laptop (24 -> 255.255.255.0)} dev {interface} gw {ip da gateway(router) do servidor}
     todos os laptops a correr pings para o servidor assim que
-e ->
+    route add -net 10.0.{4,6,7}.0 netmask 255.255.255.0 gw 10.0.5.1
+e -> (print)

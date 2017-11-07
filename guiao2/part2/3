@@ -1,0 +1,16 @@
+ 1 - Utilizamos 4 subnets ou seja utilizamos a mascara de rede 18 o que nos permite ter 4 subnets com este ip. Temos em cada uma do 1 ao 10 reservado para router , do 10 ao 50 para servers e do do 50 para cima reservado para para hosts
+
+ 2 - 18
+
+      A - 172.16.0.0/18
+      B - 172.16.64..0/18
+      C - 172.16.128.0/18
+      D - 172.16.192.0/18
+
+      1 - 10 routers
+      10 - 50 servers
+      50 ... hosts
+
+     (2^(32-18))- 2 ips host
+
+3 - (print)
