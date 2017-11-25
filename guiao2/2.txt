@@ -4,4 +4,4 @@
  d -> Nao porque nao e maior que o MTU (1500)
  e -> identification , time to live , header checksum
  f -> cada pacote de ICMP incrementa identificacao conforme TTL aumenta
- g -> 254 ttl (porque foram diferentes maquinas a dar o sinal que o pacote tem o ttl a 0 sendo que cada maquina tem valores diferentes sendo os primeiros primeiro 64 e depois alguns 255 tendo este de dar hops perdendo o valor (valores podem nao estar corretos tou muito cansado ja XD))
+ g -> 64 ttl (porque foram diferentes maquinas a dar o sinal que o pacote tem o ttl a 0 sendo que cada maquina tem valores diferentes sendo os primeiros primeiro 64 e depois alguns 255 tendo este de dar hops perdendo o valor (valores podem nao estar corretos tou muito cansado ja XD))
