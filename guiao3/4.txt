@@ -1,0 +1,1 @@
+9 -> A coluna Adress são os endereços IP conhecidos pela máquina, o HWtype é que tipo de ligação física há entre o endereço e a máquina, HWadrees é o MAC address, a Flags diz-nos o tipo de entrada na tabela arp, a Mask são as máscaras e a Iface é o tipo de interface.

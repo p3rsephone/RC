@@ -1,0 +1,21 @@
+(1)
+    origem -> 00:71:c2:49:f9:c2
+    destino -> c8:2a:14:58:01:60
+(2)
+  origem ->  (Pegatron_49:f9:c2)o computador do qual foi feito o get HTTP
+  destino ->(Apple_58:01:60) router apple que é primeiro dispositivo entre o computador servidor que da host do site
+
+(3)
+ IPV4
+(4)
+66
+  overhead é 66/442 * 100 = 0.149321 * 100  =  14.9321
+(5)
+  O valor heaxadecimal diz que é 0x0d0a0d0a mas devia 0x3063315a, e nao existe fcs sem esta setting logo podemos concluir que nao é gerado FCS
+(6)
+  O endereço fonte é Apple_58:01:60 (c8:2a:14:58:01:60)
+(7)
+  O endereço MAC de destino é 00:71:c2:49:f9:c2, e corresponde à nossa máquina local, i.e o nosso computador.
+(8)
+  IP, TCP, FCS, HTTP, ainda que o pacote não continha FCS por não ter sido gerado.
+

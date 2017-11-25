@@ -1,0 +1,4 @@
+(19)
+  a table fica com incomplete (ver .txt) logo nao sabe enviar trafego ate fazer um novo pedido arp
+(20)
+  vai criar uma entrada unica com o ip do n5 e com o mac adress do n5 com a flag C e com a interface eth0 que é a conectada com o switch
