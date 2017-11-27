@@ -1,0 +1,15 @@
+No.     Time           Source                Destination           Protocol  
+    754 88.591058023   Pegatron_49:f9:c2     Broadcast             ARP      Gratuitous ARP for 192.168.2.7 (Request)
+
+Frame 754: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: Pegatron_49:f9:c2 (00:71:c2:49:f9:c2), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: Pegatron_49:f9:c2 (00:71:c2:49:f9:c2)
+        Address: Pegatron_49:f9:c2 (00:71:c2:49:f9:c2)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: ARP (0x0806)
+Address Resolution Protocol (request/gratuitous ARP)
