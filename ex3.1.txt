@@ -1,0 +1,3 @@
+1 -> print. Neste caso, por utilizar um hub, todos os servidores recebem o ping para n4, já que o hub propaga o pacote para todos os dispositivos ligados que não o emissor. Quando o ping chega a todos os servidores, apenas n4 responde, já que era para ele que o ping era direcionado, mas mais uma vez o hub volta a propagar a mensagem, fazendo com que todos os dispositivos recebam o reply de n4.
+
+2 -> print. Utilizando um hub o pacote é difundido em todas as direções menos a do emissor, enquanto que um switch redireciona o pacote para o canal de destino.Com um switch, todos os servidores receberam um ARP request, respondendo apenas n4. A partir de aí todo o resto da comunicação foi ouvida só em n1 e n4.
