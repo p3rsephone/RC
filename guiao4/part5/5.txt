@@ -1,0 +1,29 @@
+4) Pertence a 802.11g, o valor de tipo e subtipo é (0x0008) (type description 00 e subtype value association request). Encontra se na sequencia de controlo.
+
+5) ZON-2770, ZEEDUARDO FON_ZON_FREE_INTERNET, DDSS . Statistics -> WLAN traffic -> ordenar por beacon e ver o SSID com valor > 0 ou wlan.fc.type_subtype == 8
+
+6) Nao , existe uma beacon frame (no. 3521) que não foi recebida corretamente.  brandao depois escreves (desemerda te )
+
+7)
+ FON_ZON_FREE_INTERNET -> tempo = 0.102400 , na pratica 0.102440 , é praticamente igual.
+ ZON-2770 -> tempo = 102400 , na pratica 0.102408 , é mutio parecido
+
+8)
+  ZON-2770 = bc:14:01:1b:27:78
+  FON_ZON_FREE_INTERNET = 68:b6:fc:5c:5b:39 e bc:14:01:1b:27:79
+  ZEEDUARDO = 00:1f:c6:51:39:8f
+  DDSS = f8:1a:67:ee:f4:ca
+
+Filtro :
+  wlan.fc.type_subtype == 0x08 && wlan.ssid == XXXX
+  sendo XXXX um dont SSID encontrados em 7)
+
+9)
+  PNG adajacentes
+
+10)
+  wlan.fc.type_subtype == 4 or wlan.fc.type_subtype eq 5
+11)
+  o pacote numero 1191 é um probe request tem um probe response no pacote 1200 , uma vez que a source "HonHaiPR_95:96:a0" no pacote do probe request é a destination no pacote 1200.
+  O pacote 1195 tambem faz parte do probe request uma vez que em ambientes com muito ruido podem enviar  varios pacotes para ter a certeza que vai chegar ao destino.
+  Os outros pacote de probe request (1220,1251,1252,1253,1254) existem uma vez que é sempre transmitido até saber que chegou ao destino .
